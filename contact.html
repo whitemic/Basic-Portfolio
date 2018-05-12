@@ -3,37 +3,53 @@
 <head>
     <meta charset="utf-8" />
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-              Michaela White
-    </header>
+    <header></header>
            
-    <nav>
-        <h3>About | Portfolio | Contact</h3>
-    </nav>
-    
-    <div class="Contact-box">
-        <h3>
-            Contact
-        </h3>
+    <div class="wrapper">
+        <div id="name-box">
+            Michaela White 
+        </div>
+        
+        <nav>
+            <h3>About | Portfolio | Contact</h3>
+        </nav>
 
-        <form>
-            Name:<br>
-            <input type="text" value="John Smith">
-            <br>
+        <div class="contact-box">
+            <h2>
+                Contact
+            </h2>
 
-            Email:<br>
-            <input type="text" value="example@gmail.com">
-            <br>
+            <div id="hr-line"></div>
 
-            Message:<br>
-            <input type="text">
-            <br>
-            <input type="submit" value="submit">
+            <form>
+                Name:<br>
+                <input type="text" placeholder="John Smith">
+                <br>
+                <br>
 
-        </form>
+                Email:<br>
+                <input type="text" placeholder="example@gmail.com">
+                <br>
+                <br>
+
+                Message:<br>
+                <textarea rows="10"></textarea>
+                <br>
+                <br>
+                <input id="submit" type="submit" value="submit">
+
+            </form>
+        </div>
     </div>
 
+    <footer>
+        <div id="footer-content">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 </html>
